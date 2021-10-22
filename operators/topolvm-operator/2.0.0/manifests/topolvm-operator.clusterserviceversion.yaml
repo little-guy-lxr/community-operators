@@ -132,7 +132,7 @@ spec:
                             fieldPath: metadata.namespace
                       - name: IS_OPERATOR_HUB
                         value: "1"
-                    image: docker.io/alaudapublic/topolvm-operator:2.0.0
+                    image: docker.io/alaudapublic/topolvm-operator:2.1.0
                     command:
                       - /topolvm
                     args:
